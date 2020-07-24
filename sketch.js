@@ -53,9 +53,9 @@ var respstaCertaOuErrada = 0;
 var respostaCorreta;
 var respostaErrada;;
 
-var tela = 0;
+var tela = -1;
 
-var tempoInicial = 3;
+var tempoInicial = 5;
 var temp1 = 20;
 var temp2 = 25;
 var temp3 = 30;
@@ -124,6 +124,45 @@ function setup() {
 
 function draw() {
   //executa varias vezes
+
+  //tela de carregamento
+
+  if(tela == -1){
+
+  	background(img);
+
+  	if(tempoInicial > -1){
+
+  		fill("#FFFFFF");
+  		textSize(30);
+  		textStyle(BOLD);
+  		stroke("#00BFFF");
+  		strokeWeight(1);
+  		text("Carregando arquivos", 140, 270);
+  		textSize(50);
+  		text(tempoInicial, 290, 340);
+
+  		frameRate(1);
+  		setInterval(tempoInicial--, 1000);
+
+  	}
+
+  	if(tempoInicial == -1){
+
+  		frameRate(600);
+  		textSize(40);
+  		text("AVANÇAR", 200, 300);
+
+  		line(170, 320, 425, 320);
+  		line(170, 250, 425, 250);
+  		line(170, 250, 170, 320);
+  		line(425, 250, 425, 320);
+
+
+  	}
+
+  }
+
   //Tela do jogo
   if(tela == 1){
   
@@ -214,21 +253,6 @@ function draw() {
 	 
 	  background(img);
 	  
-	  if(tempoInicial > 0){
-
-  		frameRate(1);
-  		setInterval(tempoInicial--, 1000);
-
-  	}
-
-  	if(tempoInicial == 0){
-
-  		audio2.loop();
-  		tempoInicial = -1;
-		frameRate(600);
-
-  	}
-	  
 	  noStroke();
 	  
 	  //Inicio
@@ -239,7 +263,7 @@ function draw() {
 	  textStyle(BOLD);
 	  strokeWeight(2);
 	  stroke("#DF7401");
-	  text("SUBTRAÇÃO MENTAL", 130, 60);
+	  text("SUBTRAÇÃO MENTAL", 135, 60);
 	  
 	  fill("#FFFFFF");
 	  textSize(18);
@@ -285,9 +309,3 @@ function draw() {
 	
 }
 //window.onload = function () { audio2.loop(true) }
-function mouseMoved() {
-  if(tela == 0){
-	  
-	  audio2.loop();
-  }
-}
