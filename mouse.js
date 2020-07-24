@@ -5,6 +5,17 @@ function mouseClicked() {
   
   verificaOndeClicou();
   
+  if(tela == -1){
+
+  	if(mouseX >= 170 && mouseX <= 425 && mouseY >= 250 && mouseY <= 320){
+
+  				tela = 0;
+  				audio2.loop();
+  			
+
+  		}
+
+  }
   
  
 }
