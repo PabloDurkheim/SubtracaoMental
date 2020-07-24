@@ -285,3 +285,9 @@ function draw() {
 	
 }
 //window.onload = function () { audio2.loop(true) }
+function mouseMoved() {
+  if(tela == 0){
+	  
+	  audio2.loop();
+  }
+}
