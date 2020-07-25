@@ -161,6 +161,17 @@ function draw() {
 
   	}
 
+  	if(mouseX >= 170 && mouseX <= 425 && mouseY >= 250 && mouseY <= 320){
+
+  				stroke("#FF8000");
+  			
+
+  		}else{
+
+  			stroke("#00BFFF");
+
+  		}
+
   }
 
   //Tela do jogo
@@ -274,23 +285,69 @@ function draw() {
 	  text("AJUDA", 270, 325);
 	  text("CRÉDITOS", 255, 425);
 	  
-	  //retângulos
-	  strokeWeight(1);
-	  stroke("#01DFD7");
-	  line(230, 180, 230, 255); //esquerda
-	  line(370, 180, 370, 255); //direita
-	  line(230, 255, 370, 255); //baixo
-	  line(230, 180, 370, 180); //cima
+	  if((mouseX >= 230 && mouseX <= 370) && (mouseY >= 180 && mouseY <= 245) && tela == 0){
+		
+		strokeWeight(1);
+	  	stroke("#FF8000");	
+	  	 //retângulos
+	   line(230, 180, 230, 255); //esquerda
+	   line(370, 180, 370, 255); //direita
+	   line(230, 255, 370, 255); //baixo
+	   line(230, 180, 370, 180); //cima
+		
+	}else{
 
-	  line(230, 280, 230, 355); //esquerda
-	  line(370, 280, 370, 355); //direita
-	  line(230, 355, 370, 355); //baixo
-	  line(230, 280, 370, 280); //cima
+			strokeWeight(1);
+	  		stroke("#01DFD7");
+	  		line(230, 180, 230, 255); //esquerda
+	   		line(370, 180, 370, 255); //direita
+	   		line(230, 255, 370, 255); //baixo
+	   		line(230, 180, 370, 180); //cima
+
+	}
+
+		if((mouseX >= 230 && mouseX <= 370) && (mouseY >= 280 && mouseY <= 355) && tela == 0){
+		
+			strokeWeight(1);
+	  		stroke("#FF8000");
+	  		line(230, 280, 230, 355); //esquerda
+	  		line(370, 280, 370, 355); //direita
+	  		line(230, 355, 370, 355); //baixo
+	  		line(230, 280, 370, 280); //cima
+				
+	}else{
+
+
+			strokeWeight(1);
+	  		stroke("#01DFD7");
+	  		line(230, 280, 230, 355); //esquerda
+	  		line(370, 280, 370, 355); //direita
+	  		line(230, 355, 370, 355); //baixo
+	  		line(230, 280, 370, 280); //cima
+
+	}
+	 
+	 if((mouseX >= 230 && mouseX <= 370) && (mouseY >= 380 && mouseY <= 455) && tela == 0){
+		
+		strokeWeight(1);
+	  	stroke("#FF8000");		
+		line(230, 380, 230, 455); //esquerda
+	  	line(370, 380, 370, 455); //direita
+	  	line(230, 455, 370, 455); //baixo
+	  	line(230, 380, 370, 380); //cima	
+
+	}else{
+
+		strokeWeight(1);
+	  	stroke("#01DFD7");		
+		line(230, 380, 230, 455); //esquerda
+	  	line(370, 380, 370, 455); //direita
+	  	line(230, 455, 370, 455); //baixo
+	  	line(230, 380, 370, 380); //cima
+
+	}
 	  
-	  line(230, 380, 230, 455); //esquerda
-	  line(370, 380, 370, 455); //direita
-	  line(230, 455, 370, 455); //baixo
-	  line(230, 380, 370, 380); //cima
+	  
   }
 
   //tela de ajuda
