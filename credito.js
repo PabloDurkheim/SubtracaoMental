@@ -49,18 +49,40 @@ function credito(){
 		text("Pessoas que ajudaram/opinaram na criação do design: ", 40, 200);
 		text("Criado por:", 40, 530);
 
-		fill("#FFFFFF");
-		textSize(20);
-		//strokeWeight(5);
-		stroke("#01A9DB");
-		strokeWeight(1)
-		text("Voltar", 45, 45);
+		if((mouseX >= 20 & mouseX <= 125) && (mouseY >= 15 && mouseY <= 60) && (tela == 3 || tela == 4)){
+
+			fill("#FFFFFF");
+			textSize(20);
+			//strokeWeight(5);
+			stroke("#01A9DB");
+			strokeWeight(1)
+			text("Voltar", 45, 45);
 		
-	    strokeWeight(1);
-	    stroke("#FF8000");
-	    line(20, 15, 20, 60); //esquerda
-	    line(125, 15, 125, 60); //direita
-	    line(20, 60, 125, 60); //baixo
-	    line(20, 15, 125, 15); //cima
+	    	strokeWeight(1);
+	    	stroke("#00FFFF");
+	    	line(20, 15, 20, 60); //esquerda
+	    	line(125, 15, 125, 60); //direita
+	    	line(20, 60, 125, 60); //baixo
+	    	line(20, 15, 125, 15); //cima
+			
+
+		}else{
+
+			fill("#FFFFFF");
+			textSize(20);
+			//strokeWeight(5);
+			stroke("#01A9DB");
+			strokeWeight(1)
+			text("Voltar", 45, 45);
+		
+	    	strokeWeight(1);
+	    	stroke("#FF8000");
+	    	line(20, 15, 20, 60); //esquerda
+	    	line(125, 15, 125, 60); //direita
+	    	line(20, 60, 125, 60); //baixo
+	    	line(20, 15, 125, 15); //cima
+		
+
+		}
 
 }
