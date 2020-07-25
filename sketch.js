@@ -1,10 +1,13 @@
 //link do vídeo: https://youtu.be/9DxLTanWui4
 
-let img, img2, educ1, educ2, ajud1, ajud2, eu, audio1, audio2, audio3, audio4;
+let img, img2, img3, img4, img5, educ1, educ2, ajud1, ajud2, eu, audio1, audio2, audio3, audio4, audio5, audio6;
 
 function preload() {
   img = loadImage('img7.jpg');
   img2 = loadImage('coracao.png');
+  img3 = loadImage('feliz.png');
+  img4 = loadImage('triste.png');
+  img5 = loadImage('play.png');
   educ1 = loadImage('educadora1.jpeg');
   educ2 = loadImage('educadora2.jpeg');
   ajud1 = loadImage('ajud1.jpeg');
@@ -15,6 +18,8 @@ function preload() {
   audio2 = createAudio('music2.mp3');
   audio3 = createAudio('errou.mp3');
   audio4 = createAudio('acertou.mp3');
+  audio5 = createAudio('vitoria.mp3');
+  audio6 = createAudio('derrota.mp3');
 	  
 }
 //horizontal
@@ -261,7 +266,8 @@ function draw() {
   
   //tela do Menu
   if(tela == 0){
-	 
+	 	
+	  //audio2.loop();
 	  background(img);
 	  
 	  noStroke();
@@ -364,5 +370,17 @@ function draw() {
 
   }
 	
+  if(tela == 5){
+
+  	venceu();
+
+  }
+
+  if(tela == 6){
+
+  	perdeu();
+
+  }
+
 }
 //window.onload = function () { audio2.loop(true) }
