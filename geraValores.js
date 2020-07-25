@@ -131,7 +131,7 @@ function respCertaOuErrada(){
 		
 		if(nivel == 11){
 			
-			fim("venceu");
+			tela = 5;
 			
 		}
 	}
@@ -158,7 +158,7 @@ function respCertaOuErrada(){
 		
 		if(vida == 0){
 			
-			fim("derrotado");
+			tela = 6;
 			
 		}
 		
