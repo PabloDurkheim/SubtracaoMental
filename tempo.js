@@ -25,7 +25,7 @@ function tempo(){
 
 		if(temp1 == -1){
 
-			fim("derrotado");
+			tela = 6;
 
 		}
 
@@ -48,8 +48,7 @@ function tempo(){
 
 		if(temp2 == -1){
 
-			fim("derrotado");
-
+			tela = 6;
 		}
 
 
@@ -72,7 +71,7 @@ function tempo(){
 
 		if(temp3 == -1){
 
-			fim("derrotado");
+			tela = 6;
 
 		}
 		
@@ -94,7 +93,7 @@ function tempo(){
 
 		if(temp4 == -1){
 
-			fim("derrotado");
+			tela = 6;
 
 		}
 
@@ -116,7 +115,7 @@ function tempo(){
 
 		if(temp5 == -1){
 
-			fim("derrotado");
+			tela = 6;
 
 		}
 		
@@ -138,7 +137,7 @@ function tempo(){
 
 		if(temp6 == -1){
 
-			fim("derrotado");
+			tela = 6;
 
 		}
 
@@ -160,7 +159,7 @@ function tempo(){
 
 		if(temp7 == -1){
 
-			fim("derrotado");
+			tela = 6;
 
 		}
 		
@@ -182,7 +181,7 @@ function tempo(){
 
 		if(temp8 == -1){
 
-			fim("derrotado");
+			tela = 6;
 
 		}
 
@@ -204,7 +203,7 @@ function tempo(){
 
 		if(temp9 == -1){
 
-			fim("derrotado");
+			tela = 6;
 
 		}
 		
@@ -226,7 +225,7 @@ function tempo(){
 
 		if(temp10 == -1){
 
-			fim("derrotado");
+			tela = 6;
 
 		}
 
