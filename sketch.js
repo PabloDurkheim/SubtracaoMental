@@ -61,11 +61,11 @@ var temp2 = 15;
 var temp3 = 20;
 var temp4 = 25;
 var temp5 = 30;
-var temp6 = 40;
-var temp7 = 50;
-var temp8 = 60;
-var temp9 = 70;
-var temp10 = 80;
+var temp6 = 35;
+var temp7 = 40;
+var temp8 = 45;
+var temp9 = 50;
+var temp10 = 60;
 
 var q1 = 0, q2 = 0, q3 = 0;
 
