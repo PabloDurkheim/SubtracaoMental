@@ -138,16 +138,16 @@ function respCertaOuErrada(){
 	
 	if(respostaErrada == 1){
 		
-		temp1 = 20;
-		temp2 = 25;
-		temp3 = 30;
-		temp4 = 40;
-		temp5 = 50;
-		temp6 = 60;
-		temp7 = 70;
-		temp8 = 80;
-		temp9 = 90;
-		temp10 = 99;
+		temp1 = 10;
+		temp2 = 15;
+		temp3 = 20;
+		temp4 = 25;
+		temp5 = 30;
+		temp6 = 35;
+		temp7 = 40;
+		temp8 = 45;
+		temp9 = 50;
+		temp10 = 60;
 
 		vida--;
 		//text("Resposta errada!", 100, 550);
