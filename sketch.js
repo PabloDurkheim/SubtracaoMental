@@ -252,6 +252,21 @@ function draw() {
 		 
 	  }
 	  
+	  if((valores[k] >= 10000 && valores[k] <= 99999)){
+		  
+		textSize(22);
+		text(valores[k], hx[k]+8, hy[k]+50);  
+		  
+		 
+	  }
+
+	  if((valores[k] >= 100000 && valores[k] <= 999999)){
+		  
+		textSize(18);
+		text(valores[k], hx[k]+8, hy[k]+47);  
+		  
+		 
+	  }
   }
   
   gerarSubtracaoNoInicio();
