@@ -101,7 +101,7 @@ function verificarResposta(resposta){
 		
 		if(vezes >= 0){
 		
-			vezes *= 2;
+			vezes *= 3;
 			
 		}//else{
 			
