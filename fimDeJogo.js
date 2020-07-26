@@ -6,9 +6,9 @@ function venceu(){
 		background(img);
 
 		fill("#CEF6F5");
-		rect(40, 90, 520, 70);
+		rect(40, 30, 520, 70);
 		fill("#FFFFFF");
-		rect(50, 100, 500, 50);
+		rect(50, 40, 500, 50);
 		stroke("#FFFFFF");
 		strokeWeight(1);
 		line(255, 490, 345, 490);
@@ -22,9 +22,9 @@ function venceu(){
 		textStyle(BOLD);
 		strokeWeight(3);
 		textSize(40);
-		text("Parabéns, você venceu!", 70, 137);
+		text("Parabéns, você venceu!", 70, 77);
 
-		image(img3, 190, 220, 220, 200);
+		image(img3, 190, 182, 220, 200);
 		image(img5, 265, 500, 70, 70);	
 
 
@@ -39,9 +39,9 @@ function perdeu(){
 		background(img);
 
 		fill("#CEF6F5");
-		rect(40, 90, 520, 70);
+		rect(40, 30, 520, 70);
 		fill("#FFFFFF");
-		rect(50, 100, 500, 50);
+		rect(50, 40, 500, 50);
 		stroke("#FFFFFF");
 		strokeWeight(1);
 		line(255, 490, 345, 490);
@@ -55,9 +55,9 @@ function perdeu(){
 		textStyle(BOLD);
 		strokeWeight(3);
 		textSize(40);
-		text("Que pena, você perdeu!", 70, 137);
+		text("Que pena, você perdeu!", 70, 77);
 
-		image(img4, 190, 220, 220, 200);
+		image(img4, 190, 182, 220, 200);
 		image(img5, 265, 500, 70, 70);	
 
 		audio1.stop(true);
