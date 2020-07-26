@@ -6,6 +6,12 @@ function gerarSubtracaoNoInicio(){
 	textSize(25);
 	
 	//if(nivel < 6){
+	if(subt1 > 9999 || subt2 > 9999){
+
+		textSize(23)
+		text("= "+subt1+" - "+subt2, 395, 40);
+
+	}else{
 
 		if(subt1 > 999 || subt2 > 999){
 
@@ -25,6 +31,9 @@ function gerarSubtracaoNoInicio(){
 				}
 
 		}
+
+	}
+		
 }
 	
 
