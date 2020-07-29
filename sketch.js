@@ -1,5 +1,3 @@
-//link do vídeo: https://youtu.be/9DxLTanWui4
-
 let img, img2, img3, img4, img5, educ1, educ2, ajud1, ajud2, eu, audio1, audio2, audio3, audio4, audio5, audio6;
 
 function preload() {
