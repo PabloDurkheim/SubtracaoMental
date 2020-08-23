@@ -27,15 +27,15 @@ function mouseClicked() {
 				escolheOndeFicaOResultado();
 
 				temp1 = 10;
-				temp2 = 15;
-				temp3 = 20;
-				temp4 = 25;
-				temp5 = 30;
-				temp6 = 35;
-				temp7 = 40;
-				temp8 = 45;
-				temp9 = 50;
-				temp10 = 60;
+				temp2 = 11;
+				temp3 = 12;
+				temp4 = 13;
+				temp5 = 14;
+				temp6 = 15;
+				temp7 = 16;
+				temp8 = 17;
+				temp9 = 18;
+				temp10 = 20;
 
   				audio5.stop();
   				audio6.stop();
