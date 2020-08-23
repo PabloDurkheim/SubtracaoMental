@@ -60,15 +60,15 @@ var tela = -1;
 
 var tempoInicial = 5;
 var temp1 = 10;
-var temp2 = 15;
-var temp3 = 20;
-var temp4 = 25;
-var temp5 = 30;
-var temp6 = 35;
-var temp7 = 40;
-var temp8 = 45;
-var temp9 = 50;
-var temp10 = 60;
+var temp2 = 11;
+var temp3 = 12;
+var temp4 = 13;
+var temp5 = 14;
+var temp6 = 15;
+var temp7 = 16;
+var temp8 = 17;
+var temp9 = 18;
+var temp10 = 20;
 
 var q1 = 0, q2 = 0, q3 = 0;
 
